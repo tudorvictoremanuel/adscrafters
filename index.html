@@ -1,0 +1,1078 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Portofoliul AdsCrafters: site-uri de prezentare, filme de brand și servicii de marketing digital.">
+<meta property="og:title" content="AdsCrafters Portofoliu">
+<meta property="og:description" content="Site-uri de prezentare, filme de brand și marketing digital, lucrate cu grijă.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#201A2C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23201A2C'/%3E%3Crect x='9' y='10' width='29' height='8' rx='4' fill='%232C53C8' transform='rotate(-6 23 14)'/%3E%3Crect x='11' y='20.5' width='27' height='8' rx='4' fill='%23E0512E' transform='rotate(-4 24 24)'/%3E%3Crect x='9' y='31' width='24' height='8' rx='4' fill='%23EFAD2B' transform='rotate(-6 21 35)'/%3E%3C/svg%3E">
+<title>AdsCrafters Portofoliu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Shrikhand&display=swap">
+<style>
+:root{
+  /* Layout: copertă de revistă din anii '70. Hârtie de ziar, rubrici cu filet dublu, dungile din logo-ul AdsCrafters devin curcubeu retro; scenele la scroll sunt preluate de pe adscrafters.ro */
+  --paper:#F2E4C6;
+  --paper-hi:#FAF2E1;
+  --kraft:#E4CFA3;
+  --ink:#201A2C;
+  --ink-2:#584D60;
+  --blue:#2C53C8;
+  --red:#E0512E;
+  --red-dk:#9C3219;
+  --yellow:#EFAD2B;
+  --green:#22A47F;
+  --wood:#6E4122;
+  --wood-dk:#3E2211;
+  --plastic:#EDE2C9;
+  --plastic-2:#D5C4A0;
+  --screen:#141019;
+  --line:rgba(32,26,44,.28);
+  --f-display:"Fraunces","Cooper Black",Georgia,serif;
+  --f-script:"Shrikhand","Fraunces",Georgia,serif;
+  --f-body:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"Courier Prime","Courier New",Courier,monospace;
+  --gut:clamp(16px,4vw,56px);
+  --maxw:1240px;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+img{max-width:100%;display:block}
+html{background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--f-body);font-optical-sizing:auto;-webkit-font-smoothing:antialiased;overflow-x:clip}
+html.locked,html.locked body{overflow:hidden}
+a{color:inherit}
+::selection{background:var(--yellow);color:var(--ink)}
+:focus-visible{outline:3px dashed var(--red);outline-offset:3px}
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:120;opacity:.32;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .13 0 0 0 0 .1 0 0 0 0 .17 0 0 0 1.25 -.48'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- type ---------- */
+h1,h2,h3{font-family:var(--f-display);font-variation-settings:"SOFT" 100,"WONK" 1;font-weight:850;line-height:.96;letter-spacing:-.012em;text-wrap:balance;margin:0}
+h2{font-size:clamp(2.5rem,6vw,4.8rem)}
+h3{font-size:clamp(2rem,3.6vw,3.1rem)}
+h1 em,h2 em,h3 em{font-family:var(--f-script);font-style:normal;font-weight:400;color:var(--red);letter-spacing:0}
+p{margin:0}
+.eyebrow{display:flex;align-items:center;gap:.7em;margin:0 0 1.1rem;font:700 .78rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase}
+.eyebrow::before{content:"";flex:none;width:1.7em;height:.8em;border-radius:3px;background:linear-gradient(var(--blue) 0 33%,var(--red) 0 66%,var(--yellow) 0)}
+.lead{font-size:clamp(1.08rem,1.5vw,1.22rem);max-width:36em;color:var(--ink-2)}
+.sec-head{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px 56px;align-items:end;border-top:4px double var(--ink);padding-top:22px}
+.sec-head .lead{padding-bottom:.4em}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:.6em;padding:.95em 1.55em;border-radius:999px;border:2px solid var(--ink);font:700 1rem/1 var(--f-body);text-decoration:none;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,background .2s,color .2s}
+.btn-ink{background:var(--ink);color:var(--paper-hi);box-shadow:4px 4px 0 var(--red),8px 8px 0 var(--yellow)}
+.btn-ink:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--red),12px 12px 0 var(--yellow)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--paper-hi)}
+
+/* ---------- intro ---------- */
+#intro{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:24px;background:var(--ink);color:var(--paper-hi);overflow:hidden}
+#intro .burst{position:absolute;left:50%;top:50%;width:220vmax;height:220vmax;margin:-110vmax 0 0 -110vmax;background:repeating-conic-gradient(rgba(239,173,43,.12) 0 6deg,transparent 6deg 12deg);animation:spin 90s linear infinite}
+.intro-card{position:relative;display:grid;justify-items:center;gap:16px;max-width:600px;text-align:center}
+.intro-arcs{width:min(260px,60vw);height:auto}
+.intro-kicker{font:700 .8rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;opacity:.85}
+#intro h2{font-size:clamp(3.2rem,11vw,6.8rem);line-height:.9}
+#intro h2 em{color:var(--yellow)}
+#start{margin-top:10px;display:inline-flex;align-items:center;gap:.7em;padding:1em 2.3em;border:3px solid var(--paper-hi);border-radius:999px;background:var(--red);color:var(--paper-hi);font:800 1.2rem/1 var(--f-body);letter-spacing:.02em;cursor:pointer;box-shadow:0 7px 0 var(--red-dk),0 0 0 10px rgba(250,242,225,.07);transition:transform .12s,box-shadow .12s}
+#start:hover{transform:translateY(-2px);box-shadow:0 9px 0 var(--red-dk),0 0 0 14px rgba(250,242,225,.09)}
+#start:active{transform:translateY(5px);box-shadow:0 2px 0 var(--red-dk),0 0 0 10px rgba(250,242,225,.07)}
+#start svg{width:1em;height:1em}
+.intro-note{font:400 .88rem/1.5 var(--f-mono);opacity:.82}
+#start-quiet{border:0;background:none;color:inherit;font:600 .95rem/1 var(--f-body);text-decoration:underline;text-underline-offset:4px;cursor:pointer;opacity:.85;padding:6px}
+.preview-note{max-width:30em;margin-top:6px;padding:10px 14px;border:1.5px dashed rgba(250,242,225,.45);border-radius:10px;font:400 .82rem/1.5 var(--f-mono);opacity:.85}
+#intro.off{animation:crt-off .9s cubic-bezier(.65,0,.35,1) forwards}
+@keyframes crt-off{0%{clip-path:inset(0 0 0 0)}45%{clip-path:inset(49.7% 0 49.7% 0);filter:brightness(2.4)}78%{clip-path:inset(49.7% 49.5% 49.7% 49.5%);filter:brightness(4)}100%{clip-path:inset(50% 50% 50% 50%);opacity:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---------- masthead ---------- */
+.mast{position:relative;z-index:5}
+.mast-row{display:flex;align-items:center;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;padding-block:18px 14px;border-bottom:2px solid var(--ink)}
+.mast-meta{font:700 .76rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font:italic 800 1.5rem/1 var(--f-display);font-variation-settings:"SOFT" 100,"WONK" 1}
+.brand svg{width:34px;height:34px}
+.mast-nav{display:flex;gap:4px 22px;flex-wrap:wrap}
+.mast-nav a{font:600 .98rem/1 var(--f-body);text-decoration:none;padding:6px 0;background:linear-gradient(var(--red),var(--red)) 0 100%/0 3px no-repeat;transition:background-size .25s}
+.mast-nav a:hover{background-size:100% 3px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow-x:clip;padding-top:clamp(36px,6vw,80px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:40px;align-items:center}
+.hero h1{font-size:clamp(3rem,6.6vw,6.3rem);margin-bottom:1.6rem;isolation:isolate}
+.hero h1 span{display:block}
+.hero h1 em{display:inline-block;position:relative;font-size:1.04em;line-height:1}
+.hero h1 em::after{content:"";position:absolute;left:2%;right:-2%;bottom:-.06em;height:.16em;border-radius:99px;background:var(--yellow);z-index:-1;transform:rotate(-2deg)}
+.cta-row{display:flex;flex-wrap:wrap;gap:18px 20px;margin-top:2rem}
+.hero-art{position:relative;max-width:560px;justify-self:end;width:100%}
+.rainbow{width:100%;height:auto;overflow:visible}
+.rainbow .arc{fill:none;stroke-width:34;stroke-linecap:round;transform-origin:300px 330px}
+.rainbow .sun{transform-origin:300px 330px}
+.horizon{stroke:var(--ink);stroke-width:3}
+.sticker{position:absolute;right:-6px;top:-4px;width:150px;height:150px;display:grid;place-content:center;text-align:center;gap:4px;padding:18px;background:var(--yellow);color:var(--ink);transform:rotate(12deg);clip-path:polygon(50% 0,61% 13%,77% 6%,80% 22%,96% 24%,90% 39%,100% 50%,90% 61%,96% 76%,80% 78%,77% 94%,61% 87%,50% 100%,39% 87%,23% 94%,20% 78%,4% 76%,10% 61%,0 50%,10% 39%,4% 24%,20% 22%,23% 6%,39% 13%)}
+.sticker small{font:700 .66rem/1.1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.sticker b{font:850 1.02rem/1.05 var(--f-display);font-variation-settings:"SOFT" 100}
+.stamp{position:absolute;left:-14px;bottom:-26px;width:150px;height:150px}
+.stamp .ring{animation:spin 26s linear infinite;transform-origin:75px 75px}
+.stamp text{font:700 10.5px var(--f-mono);letter-spacing:.2em;fill:var(--ink)}
+.js .rainbow .arc{stroke-dasharray:1;stroke-dashoffset:1}
+.js .rainbow .sun{opacity:0}
+.js .hero-copy>*{opacity:0;transform:translateY(24px)}
+.entered .rainbow .arc{animation:draw 1.3s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(.25s + var(--i)*.11s)}
+.entered .rainbow .sun{animation:rise .9s cubic-bezier(.2,.8,.2,1) .9s forwards}
+.entered .hero-copy>*{animation:up .8s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(.1s + var(--d,0)*.1s)}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes rise{from{opacity:0;translate:0 40px}to{opacity:1;translate:0 0}}
+@keyframes up{to{opacity:1;transform:none}}
+
+.marquee{position:relative;margin:clamp(48px,7vw,90px) -24px 0;padding:14px 0;background:var(--ink);color:var(--paper-hi);transform:rotate(-1.6deg);overflow:hidden;white-space:nowrap}
+.mq-in{display:inline-flex;will-change:transform}
+.mq-in span{display:inline-flex;align-items:center;gap:.7em;padding-right:.7em;font:italic 700 clamp(1.3rem,2.4vw,2rem)/1.1 var(--f-display);font-variation-settings:"SOFT" 100,"WONK" 1}
+.mq-in i{font-style:normal;color:var(--yellow)}
+
+/* ---------- works (pinned stage) ---------- */
+.works{position:relative;background:var(--wbg,var(--paper));overflow-x:clip;padding-top:clamp(90px,11vw,150px)}
+.works-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:clamp(24px,4vw,64px)}
+.wstep{min-height:108vh;display:flex;flex-direction:column;justify-content:center;gap:16px;padding-block:8vh}
+.w-no{font:700 .8rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.w-sub{font:italic 600 1.3rem/1.2 var(--f-display);font-variation-settings:"SOFT" 100;color:var(--ink-2)}
+.wstep>p:not([class]){max-width:33em}
+.spec{margin:8px 0 4px;display:grid;border-top:2px solid var(--ink);max-width:33em}
+.spec div{display:grid;grid-template-columns:8.5em minmax(0,1fr);gap:12px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.spec dt{font:700 .76rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.spec dd{margin:0;font-weight:600}
+.w-link{align-self:flex-start;display:inline-flex;gap:.5em;align-items:center;margin-top:6px;font:700 1.05rem/1 var(--f-body);text-decoration:none;padding:.75em 1.2em;border:2px solid var(--ink);border-radius:999px;background:var(--paper-hi);box-shadow:3px 3px 0 var(--ink);transition:transform .2s,box-shadow .2s}
+.w-link:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink)}
+.wstep.free h3 em{font-size:1.05em}
+.wstep .btn{align-self:flex-start;margin-top:8px}
+.works-pin{position:relative}
+.stage-wrap{position:sticky;top:0;height:100vh;display:grid;place-items:center}
+.stage{position:relative;width:min(100%,74vh);aspect-ratio:1}
+.bar{position:absolute;left:0;top:0;display:block;will-change:transform}
+.bar:nth-child(1){z-index:1}.bar:nth-child(2){z-index:2}.bar:nth-child(3){z-index:3}.bar:nth-child(4){z-index:4}.bar:nth-child(5){z-index:5}
+.monitor{position:absolute;left:6%;right:6%;top:17%;z-index:8;padding:4% 4% 0;border-radius:26px 26px 16px 16px;background:linear-gradient(180deg,var(--plastic),var(--plastic-2));box-shadow:inset 0 2px 0 rgba(255,255,255,.7),inset 0 -4px 0 rgba(0,0,0,.08),0 3px 0 #BFA97E,0 46px 60px -30px rgba(32,26,44,.6)}
+.monitor::after{content:"";position:absolute;top:100%;left:31%;right:31%;height:7%;background:linear-gradient(var(--plastic-2),#BFA97E);clip-path:polygon(10% 0,90% 0,100% 100%,0 100%)}
+.screen{position:relative;display:block;border-radius:12px;overflow:hidden;background:var(--screen);padding:4px;box-shadow:0 0 0 5px #C7B58E,inset 0 0 0 2px #000}
+.win-bar{position:relative;display:flex;align-items:center;justify-content:center;height:24px;background:repeating-linear-gradient(180deg,var(--paper-hi) 0 2px,#CDBF9F 2px 3px);border-bottom:2px solid var(--ink);border-radius:8px 8px 0 0}
+.win-bar span{padding:3px 9px;background:var(--paper-hi);font:700 11px/1 var(--f-mono);letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}
+.win-bar::before{content:"";position:absolute;left:9px;top:5px;width:12px;height:12px;border:2px solid var(--ink);background:var(--paper-hi)}
+.win-body{position:relative;display:block;aspect-ratio:16/10;overflow:hidden;background:#000;border-radius:0 0 8px 8px}
+.shot{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;transition:opacity .45s ease}
+.shot.on{opacity:1}
+.win-body::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.13) 0 1px,transparent 1px 3px),radial-gradient(130% 110% at 50% 45%,transparent 58%,rgba(0,0,0,.38))}
+.screen.glitch .win-body{animation:glitch .45s steps(5)}
+@keyframes glitch{0%{filter:brightness(2.4) contrast(1.4);transform:translateY(-5%)}30%{transform:translateY(4%) skewX(-4deg);filter:brightness(1.5) hue-rotate(50deg)}60%{transform:translateX(-2%);filter:brightness(1.15)}100%{transform:none;filter:none}}
+.testcard{display:grid;place-content:center;justify-items:center;gap:8px;text-align:center;background:linear-gradient(90deg,#BDBDBD 0 14.3%,#CBB82A 0 28.6%,#2AB0B6 0 42.9%,#2FA24F 0 57.1%,#AE3CA4 0 71.4%,#C63A2E 0 85.7%,#2B3FB3 0) top/100% 68% no-repeat,linear-gradient(90deg,#2B3FB3 0 14.3%,#141019 0 28.6%,#AE3CA4 0 42.9%,#141019 0 57.1%,#2AB0B6 0 71.4%,#141019 0 85.7%,#BDBDBD 0) 0 76%/100% 8% no-repeat,linear-gradient(90deg,#16224F 0 18%,#F3F3F3 0 36%,#2C1A55 0 54%,#141019 0) bottom/100% 24% no-repeat}
+.testcard b{padding:.6em 1em;border:2px solid var(--paper-hi);background:var(--ink);color:var(--paper-hi);font:700 clamp(11px,1.5vw,19px)/1 var(--f-mono);letter-spacing:.16em}
+.testcard small{padding:.35em .8em;background:var(--paper-hi);color:var(--ink);font:700 clamp(10px,1.1vw,13px)/1 var(--f-mono)}
+.mon-foot{display:flex;align-items:center;gap:14px;padding:4.5% 2% 5%}
+.mon-badge{font:italic 800 clamp(11px,1.1vw,14px)/1 var(--f-display);font-variation-settings:"SOFT" 100;color:var(--ink-2);display:flex;align-items:center;gap:7px}
+.mon-badge svg{width:16px;height:16px}
+.slot{margin-left:auto;width:34%;height:8px;border-radius:4px;background:#2A2433;box-shadow:inset 0 2px 0 #000}
+.led{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green)}
+.mon-cap{position:absolute;left:0;right:0;bottom:-2%;z-index:9;text-align:center;font:700 .76rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.m-mon{display:none;width:100%;padding:12px 12px 0;border:0;border-radius:18px 18px 12px 12px;background:linear-gradient(180deg,var(--plastic),var(--plastic-2));box-shadow:inset 0 2px 0 rgba(255,255,255,.7),0 24px 40px -24px rgba(32,26,44,.6);cursor:pointer;text-align:left;font:inherit;color:inherit}
+.m-mon .mon-foot{padding:10px 4px 12px}
+.m-mon .tap{margin-left:auto;font:700 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+
+/* ---------- video / TV ---------- */
+.tvsec{position:relative;background-color:var(--ink);color:var(--paper-hi);background-image:radial-gradient(circle at 50% 100%,transparent 0 16px,rgba(239,173,43,.11) 16px 24px,transparent 24px 31px,rgba(224,81,46,.11) 31px 39px,transparent 39px);background-size:96px 48px;padding-block:clamp(90px,11vw,150px)}
+.tvsec .sec-head{border-top-color:var(--paper-hi)}
+.tvsec .lead{color:rgba(250,242,225,.78)}
+.tv-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center;margin-top:clamp(40px,6vw,72px)}
+.tv{position:relative;width:100%;max-width:820px}
+.tv-cab{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 112px;gap:18px;padding:22px;border-radius:30px;background:repeating-linear-gradient(97deg,rgba(0,0,0,.07) 0 2px,transparent 2px 11px),linear-gradient(160deg,#7E4A26,var(--wood) 55%,#4C2A13);box-shadow:inset 0 2px 0 rgba(255,255,255,.2),inset 0 -5px 0 rgba(0,0,0,.3),0 40px 70px -24px rgba(0,0,0,.7)}
+.tv-bezel{padding:14px;border-radius:30px/36px;background:#1B1720;box-shadow:inset 0 0 0 4px #CFC5B0,inset 0 0 0 9px #2C2631}
+.tv-screen{position:relative;aspect-ratio:7/5;overflow:hidden;border-radius:26px/32px;background:#000}
+.tv-thumb,.tv-host{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);width:100%;aspect-ratio:16/9}
+.tv-thumb{object-fit:cover}
+.tv-host iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.tv-static{position:absolute;inset:0;width:100%;height:100%;image-rendering:pixelated;opacity:.85}
+.tv-play{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:12px;text-decoration:none;color:var(--paper-hi);background:radial-gradient(circle,rgba(20,16,25,.15),rgba(20,16,25,.5))}
+.tv-play-btn{width:78px;height:78px;border-radius:50%;background:var(--red);border:3px solid var(--paper-hi);box-shadow:0 6px 0 var(--red-dk);display:grid;place-items:center;transition:transform .2s}
+.tv-play-btn::before{content:"";margin-left:6px;border-left:24px solid var(--paper-hi);border-top:15px solid transparent;border-bottom:15px solid transparent}
+.tv-play:hover .tv-play-btn{transform:scale(1.08)}
+.tv-play-lbl{font:700 .82rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:var(--ink);padding:.5em .8em}
+.tv-nosig{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:8px;text-align:center}
+.tv-nosig b{padding:.5em .9em;background:var(--ink);color:var(--paper-hi);font:700 clamp(.9rem,2vw,1.3rem)/1 var(--f-mono);letter-spacing:.16em}
+.tv-nosig span{padding:.35em .7em;background:var(--paper-hi);color:var(--ink);font:700 .78rem/1 var(--f-mono)}
+.tv-osd{position:absolute;left:5%;top:4%;font:700 clamp(.85rem,1.6vw,1.15rem)/1 var(--f-mono);color:#7CFF9C;text-shadow:0 0 6px rgba(124,255,156,.7);letter-spacing:.08em;pointer-events:none}
+.tv-glass{position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(120% 90% at 30% 15%,rgba(255,255,255,.12),transparent 40%),repeating-linear-gradient(0deg,rgba(0,0,0,.14) 0 1px,transparent 1px 3px);box-shadow:inset 0 0 50px rgba(0,0,0,.7)}
+.tv-screen[data-state="playing"] .tv-glass{background:none;box-shadow:inset 0 0 26px rgba(0,0,0,.6)}
+.tv-screen[data-state="video"] .tv-static,.tv-screen[data-state="video"] .tv-nosig,.tv-screen[data-state="video"] .tv-host{display:none}
+.tv-screen[data-state="playing"] .tv-thumb,.tv-screen[data-state="playing"] .tv-play,.tv-screen[data-state="playing"] .tv-static,.tv-screen[data-state="playing"] .tv-nosig,.tv-screen[data-state="playing"] .tv-osd{display:none}
+.tv-screen[data-state="static"] .tv-thumb,.tv-screen[data-state="static"] .tv-play,.tv-screen[data-state="static"] .tv-host{display:none}
+.tv-screen.switch{animation:tvswitch .4s steps(4)}
+@keyframes tvswitch{0%{filter:brightness(3) contrast(2)}40%{filter:brightness(.4);transform:scaleY(.96)}100%{filter:none;transform:none}}
+.tv-panel{display:flex;flex-direction:column;align-items:center;gap:16px;padding:12px 0}
+.grille{width:100%;flex:1;min-height:110px;border-radius:12px;background:repeating-linear-gradient(0deg,#2A1A0E 0 3px,#C9B58C 3px 6px);box-shadow:inset 0 0 0 3px #2A1A0E}
+.ch-win{min-width:62px;padding:6px 8px;border-radius:6px;background:#0F0C12;color:#7CFF9C;text-align:center;font:700 1.15rem/1 var(--f-mono);letter-spacing:.1em;box-shadow:inset 0 0 0 2px #CFC5B0}
+.knob{position:relative;width:74px;height:74px;border-radius:50%;border:0;padding:0;cursor:pointer;background:radial-gradient(circle at 35% 30%,#F1E8D6,#B9AB8F 60%,#857659);box-shadow:0 5px 0 #2A1A0E,inset 0 -3px 0 rgba(0,0,0,.2);transform:rotate(var(--r,0deg));transition:transform .45s cubic-bezier(.3,1.5,.5,1)}
+.knob::before{content:"";position:absolute;left:50%;top:7px;width:6px;height:24px;margin-left:-3px;border-radius:3px;background:var(--ink)}
+.knob-lbl,.ch-lbl{font:700 .66rem/1 var(--f-mono);letter-spacing:.18em;text-transform:uppercase;color:#E9D9B6}
+.tv-legs{position:relative;height:46px;margin:0 12%}
+.tv-legs::before,.tv-legs::after{content:"";position:absolute;top:0;width:16px;height:52px;border-radius:0 0 8px 8px;background:var(--wood-dk)}
+.tv-legs::before{left:6%;transform:skewX(14deg)}
+.tv-legs::after{right:6%;transform:skewX(-14deg)}
+.tv-now{margin-top:6px;font:400 .9rem/1.5 var(--f-mono);color:rgba(250,242,225,.75)}
+.guide{background:var(--paper-hi);color:var(--ink);padding:26px 26px 22px;transform:rotate(1.4deg);box-shadow:0 26px 50px -24px rgba(0,0,0,.75);position:relative}
+.guide::before{content:"";position:absolute;left:50%;top:-12px;width:90px;height:26px;margin-left:-45px;background:rgba(239,173,43,.75);transform:rotate(-3deg)}
+.guide-top{display:flex;justify-content:space-between;gap:12px;border-bottom:3px double var(--ink);padding-bottom:10px;font:700 .72rem/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase}
+.guide h3{font-size:clamp(1.8rem,3vw,2.4rem);margin:14px 0 6px}
+.guide>p{font-size:.95rem;color:var(--ink-2)}
+.ch-list{list-style:none;margin:16px 0 0;padding:0}
+.ch-list button{width:100%;display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 12px;padding:12px 6px;border:0;border-top:1px dashed var(--line);background:none;text-align:left;cursor:pointer;color:inherit;font:inherit;transition:background .2s}
+.ch-list button:hover{background:rgba(239,173,43,.18)}
+.ch-list button[aria-current="true"]{background:var(--ink);color:var(--paper-hi)}
+.g-ch{grid-row:span 2;align-self:center;font:700 .82rem/1 var(--f-mono);padding:6px 7px;border:2px solid currentColor;border-radius:4px}
+.g-t{font:700 1rem/1.25 var(--f-body);min-width:0}
+.g-d{font:400 .8rem/1.3 var(--f-mono);opacity:.75}
+
+/* ---------- services trail ---------- */
+.svc{position:relative;overflow-x:clip;padding-block:clamp(90px,11vw,150px)}
+.track{position:relative;margin-top:clamp(40px,6vw,80px)}
+.trail{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
+.t-band{fill:none;stroke:var(--kraft);stroke-width:46;stroke-linecap:round;opacity:.7}
+.t-ghost{fill:none;stroke:var(--line);stroke-width:5;stroke-linecap:round;stroke-dasharray:0 15}
+.t-dots{fill:none;stroke:var(--ink);stroke-width:7;stroke-linecap:round;stroke-dasharray:0 15}
+.hand{position:absolute;left:0;top:0;z-index:4;width:64px;height:32px;margin:-16px 0 0 -32px;pointer-events:none;will-change:transform}
+.tks{position:relative;z-index:2;display:flex;flex-direction:column}
+.tk{position:relative;width:min(46%,480px);filter:drop-shadow(0 14px 18px rgba(32,26,44,.22))}
+.tk:nth-child(odd){align-self:flex-start}
+.tk:nth-child(even){align-self:flex-end}
+.tk+.tk{margin-top:-30px}
+.ticket{position:relative;padding:0 28px 26px;border-radius:14px;background:var(--paper-hi);-webkit-mask:radial-gradient(circle 15px at 0 62%,#0000 96%,#000) left/51% 100% no-repeat,radial-gradient(circle 15px at 100% 62%,#0000 96%,#000) right/51% 100% no-repeat;mask:radial-gradient(circle 15px at 0 62%,#0000 96%,#000) left/51% 100% no-repeat,radial-gradient(circle 15px at 100% 62%,#0000 96%,#000) right/51% 100% no-repeat}
+.ticket::after{content:"";position:absolute;inset:56px 12px 12px;border:2px dashed var(--line);border-radius:8px;pointer-events:none}
+.t-top{display:flex;align-items:center;justify-content:flex-start;gap:12px;margin:0 -28px 20px;padding:12px 100px 12px 28px;background:var(--c);color:var(--paper-hi);font:700 .72rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase}
+.t-top svg{width:26px;height:26px;flex:none}
+.ticket h3{font-size:clamp(1.7rem,2.6vw,2.2rem);margin-bottom:10px;position:relative}
+.ticket p{position:relative;max-width:30em}
+.t-tags{margin-top:14px!important;font:700 .74rem/1.4 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.t-stamp{position:absolute;right:14px;top:-20px;z-index:3;width:78px;height:78px;display:grid;place-content:center;text-align:center;border:3px solid var(--red);border-radius:50%;background:var(--paper-hi);color:var(--red);font:700 .6rem/1.25 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;opacity:0;transform:rotate(-16deg) scale(1.3);pointer-events:none}
+.t-stamp::before{content:"";position:absolute;inset:5px;border:1.5px solid var(--red);border-radius:50%}
+.tk.hit{animation:pop .55s cubic-bezier(.3,1.6,.5,1)}
+.tk.hit .t-stamp,.tk.stamped .t-stamp{animation:stamp .45s cubic-bezier(.3,1.4,.5,1) forwards}
+@keyframes pop{30%{transform:scale(1.035) rotate(-.8deg)}}
+@keyframes stamp{to{opacity:1;transform:rotate(-16deg) scale(1)}}
+
+/* ---------- reviews deck ---------- */
+.rev{position:relative;background:var(--ink);color:var(--paper-hi);height:calc((var(--n,4) + 1) * 72vh)}
+.rev-pin{position:sticky;top:0;height:100vh;display:flex;align-items:center;overflow:hidden}
+.rev-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(28px,5vw,72px);align-items:center}
+.rev h2 em{color:var(--yellow)}
+.rev .lead{color:rgba(250,242,225,.78);margin-top:18px}
+.rev-count{margin-top:22px;font:700 .8rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--yellow)}
+.deck{position:relative;height:min(64vh,520px)}
+.card{position:absolute;left:0;right:0;top:50%;padding:30px 30px 26px;border-radius:6px;background:var(--paper-hi);color:var(--ink);box-shadow:0 30px 50px -20px rgba(0,0,0,.6);transform:translateY(-50%);will-change:transform}
+.card:nth-child(even){background:#F6E7C8}
+.pc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
+.pc-kicker{font:700 .72rem/1.4 var(--f-mono);letter-spacing:.16em;text-transform:uppercase}
+.pc-stamp{flex:none;width:62px;height:74px;display:grid;place-items:center;gap:2px;padding:8px 6px;background:var(--red);color:var(--paper-hi);font:700 .5rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;-webkit-mask:radial-gradient(circle at center,#0000 3px,#000 3.6px) -5px -5px/10px 10px round,linear-gradient(#000 0 0) center/calc(100% - 10px) calc(100% - 10px) no-repeat;mask:radial-gradient(circle at center,#0000 3px,#000 3.6px) -5px -5px/10px 10px round,linear-gradient(#000 0 0) center/calc(100% - 10px) calc(100% - 10px) no-repeat}
+.pc-stamp svg{width:30px;height:30px}
+.card blockquote{margin:18px 0 18px;font:italic 500 clamp(1rem,1.5vw,1.22rem)/1.5 var(--f-display);font-variation-settings:"SOFT" 100}
+.pc-from{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;padding-top:12px;border-top:1px dashed var(--line)}
+.pc-name{font:400 1.35rem/1 var(--f-script);color:var(--blue)}
+.pc-role{font:700 .74rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+
+/* ---------- contact ---------- */
+.contact{padding-block:clamp(90px,11vw,150px) clamp(60px,8vw,110px)}
+.c-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(36px,6vw,90px);align-items:center;margin-top:clamp(36px,5vw,60px)}
+.c-mail{display:grid;gap:16px;margin-top:28px;padding:24px;border:2px solid var(--ink);border-radius:16px;background:var(--paper-hi);box-shadow:6px 6px 0 var(--ink)}
+.c-mail small{font:700 .74rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+#email{font:850 clamp(1.4rem,3.2vw,2.3rem)/1.1 var(--f-display);font-variation-settings:"SOFT" 100;word-break:break-word;user-select:all}
+.c-actions{display:flex;flex-wrap:wrap;gap:12px}
+.c-actions .btn{padding:.8em 1.2em;font-size:.95rem}
+.flyer{position:relative;padding:34px 28px 0;background:var(--paper-hi);transform:rotate(-2.2deg);box-shadow:0 30px 50px -24px rgba(32,26,44,.55)}
+.flyer::before{content:"";position:absolute;left:50%;top:-10px;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#F28A6E,var(--red) 55%,var(--red-dk));box-shadow:0 4px 6px rgba(0,0,0,.3)}
+.fl-kicker{font:700 .78rem/1 var(--f-mono);letter-spacing:.3em;text-transform:uppercase;text-align:center;border-block:3px double var(--ink);padding:8px 0}
+.flyer h3{text-align:center;margin:18px 0 12px;font-size:clamp(2rem,3.4vw,2.8rem)}
+.flyer>p{text-align:center;color:var(--ink-2);max-width:24em;margin-inline:auto}
+.tabs{display:flex;margin:24px -28px 0;border-top:2px dashed var(--ink)}
+.tab{flex:1;min-width:0;height:150px;padding:10px 0;border:0;border-right:1.5px dashed var(--line);background:var(--paper-hi);color:var(--ink);writing-mode:vertical-rl;transform:rotate(180deg);font:700 .78rem/1 var(--f-mono);letter-spacing:.04em;cursor:pointer;transition:background .2s}
+.tab:last-child{border-right:0}
+.tab:hover{background:#F6E7C8}
+.tab.torn{animation:tear .7s cubic-bezier(.5,0,.8,.6) forwards}
+@keyframes tear{20%{transform:rotate(180deg) translateY(-6px)}100%{transform:rotate(200deg) translateY(-180px) translateX(-30px);opacity:0}}
+
+/* ---------- footer ---------- */
+.foot{padding-block:40px 120px;border-top:4px double var(--ink)}
+.foot-mark{font:400 clamp(2.2rem,10.5vw,10.5rem)/.95 var(--f-script);color:var(--ink);letter-spacing:-.01em;white-space:nowrap;text-align:center;overflow:hidden;padding-bottom:.06em}
+.foot-mark span:nth-child(1){color:var(--blue)}.foot-mark span:nth-child(2){color:var(--red)}.foot-mark span:nth-child(3){color:var(--yellow)}.foot-mark span:nth-child(4){color:var(--green)}
+.foot-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px;margin-top:22px;font:400 .86rem/1.6 var(--f-mono);color:var(--ink-2)}
+.foot-row a{color:var(--ink)}
+
+/* ---------- dock ---------- */
+.dock{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:90;display:flex;align-items:center;gap:10px;max-width:calc(100% - 24px);padding:6px 14px 6px 6px;border:2px solid var(--ink);border-radius:999px;background:var(--paper-hi);box-shadow:4px 4px 0 var(--ink);transform:translateX(-50%);transition:transform .6s cubic-bezier(.2,.8,.2,1),opacity .6s}
+html.locked .dock{opacity:0;transform:translate(-50%,140%)}
+.mbtn{flex:none;width:44px;height:44px;border:0;border-radius:50%;padding:0;display:grid;place-items:center;background:var(--ink);cursor:pointer}
+.mbtn svg{width:34px;height:34px}
+.dock.playing .mbtn svg{animation:spin 2.4s linear infinite}
+.mbtn .pp{fill:var(--paper-hi)}
+.np{display:grid;max-width:150px;overflow:hidden;white-space:nowrap}
+.np b{font:700 .78rem/1.2 var(--f-mono)}
+.np small{font:400 .7rem/1.2 var(--f-mono);color:var(--ink-2)}
+.dock .sep{width:2px;align-self:stretch;margin-block:6px;background:var(--line)}
+.dots{display:flex;gap:2px}
+.dots button{width:24px;height:24px;padding:0;border:0;background:none;display:grid;place-items:center;cursor:pointer}
+.dots button i{width:12px;height:12px;border-radius:50%;border:2px solid var(--d);transition:background .25s,transform .25s}
+.dots button.on i{background:var(--d);transform:scale(1.2)}
+.dlbl{min-width:68px;font:700 .74rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.toast{position:fixed;left:50%;bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:95;max-width:min(92vw,460px);padding:12px 16px;border-radius:12px;background:var(--ink);color:var(--paper-hi);font:400 .88rem/1.45 var(--f-mono);text-align:center;opacity:0;transform:translate(-50%,10px);transition:opacity .3s,transform .3s;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.yt-music{position:fixed;left:0;bottom:0;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none}
+
+/* ---------- responsive ---------- */
+@media (max-width:980px){
+  .tv-grid{grid-template-columns:1fr}
+  .guide{max-width:560px;transform:rotate(.8deg)}
+}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{justify-self:center;max-width:460px;margin-top:10px}
+  .sec-head{grid-template-columns:1fr}
+  .c-grid{grid-template-columns:1fr}
+  .flyer{max-width:440px;margin-inline:auto}
+}
+@media (max-width:820px){
+  .works-grid{grid-template-columns:1fr}
+  .works-pin{display:none}
+  .wstep{min-height:0;padding-block:40px}
+  .m-mon{display:block;margin-top:12px}
+  .tk{width:100%}
+  .tks{padding-left:44px}
+  .tk+.tk{margin-top:28px}
+  .rev-grid{grid-template-columns:1fr;gap:22px}
+  .rev .lead{display:none}
+  .deck{height:min(58vh,470px)}
+  .card{padding:22px 20px 20px}
+  .rev{height:calc((var(--n,4) + 1) * 80vh)}
+}
+@media (max-width:640px){
+  .mast-meta{display:none}
+  .tv-cab{grid-template-columns:1fr;padding:14px;border-radius:24px}
+  .tv-panel{flex-direction:row;justify-content:space-between;padding:0 4px;gap:12px}
+  .grille{min-height:46px;height:46px;flex:1}
+  .knob{width:58px;height:58px}
+  .knob-lbl{display:none}
+  .tv-bezel{padding:9px}
+  .np,.dlbl{display:none}
+  .dock{padding-right:10px}
+  .sticker{width:118px;height:118px;padding:14px;right:-4px}
+  .stamp{width:116px;height:116px;left:-6px;bottom:-30px}
+  .tab{height:128px;font-size:.7rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .js .rainbow .arc{stroke-dashoffset:0}
+  .js .rainbow .sun,.js .hero-copy>*{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<noscript><style>#intro{display:none}.js .hero-copy>*{opacity:1}</style></noscript>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="logo" viewBox="0 0 48 48">
+    <rect width="48" height="48" rx="12" fill="#201A2C"/>
+    <rect x="9" y="10" width="29" height="8" rx="4" fill="#2C53C8" transform="rotate(-6 23 14)"/>
+    <rect x="11" y="20.5" width="27" height="8" rx="4" fill="#E0512E" transform="rotate(-4 24 24)"/>
+    <rect x="9" y="31" width="24" height="8" rx="4" fill="#EFAD2B" transform="rotate(-6 21 35)"/>
+  </symbol>
+</svg>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ ECRAN DE INTRARE ============ -->
+<div id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-t">
+  <div class="burst" aria-hidden="true"></div>
+  <div class="intro-card">
+    <svg class="intro-arcs" viewBox="0 0 300 160" aria-hidden="true">
+      <g fill="none" stroke-linecap="round" stroke-width="18">
+        <path d="M20 150 A130 130 0 0 1 280 150" stroke="#2C53C8"/>
+        <path d="M45 150 A105 105 0 0 1 255 150" stroke="#E0512E"/>
+        <path d="M70 150 A80 80 0 0 1 230 150" stroke="#EFAD2B"/>
+        <path d="M95 150 A55 55 0 0 1 205 150" stroke="#22A47F"/>
+      </g>
+      <circle cx="150" cy="150" r="26" fill="#FAF2E1"/>
+    </svg>
+    <p class="intro-kicker">AdsCrafters prezintă</p>
+    <h2 id="intro-t">Portofoliul <em>nostru</em></h2>
+    <button id="start" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3 L17 10 L5 17 Z" fill="currentColor"/></svg>Pornește</button>
+    <p class="intro-note">Pornește cu muzică: Boney M. · Rasputin (1979)</p>
+    <button id="start-quiet" type="button">Intră fără sunet</button>
+    <p class="preview-note" id="preview-note" hidden>Ești în previzualizare. Aici YouTube este blocat, așa că melodia și filmul nu pornesc. Pe site-ul urcat pe hostingul tău, Rasputin începe când apeși „Pornește”.</p>
+  </div>
+</div>
+
+<!-- ============ ANTET ============ -->
+<header class="mast">
+  <div class="wrap mast-row">
+    <span class="mast-meta">Vol. 1 · Portofoliu</span>
+    <a class="brand" href="#acasa" aria-label="AdsCrafters, începutul paginii"><svg aria-hidden="true"><use href="#logo"/></svg><span>AdsCrafters</span></a>
+    <nav class="mast-nav" aria-label="Secțiuni">
+      <a href="#lucrari">Lucrări</a><a href="#video">Video</a><a href="#servicii">Servicii</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="acasa">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow" style="--d:0">Agenție de marketing digital</p>
+      <h1 style="--d:1"><span>Meșteșugari</span><span>de <em>reclame</em></span><span>și site-uri.</span></h1>
+      <p class="lead" style="--d:2">Suntem AdsCrafters. Construim site-uri de prezentare, identități de brand și campanii online pentru firme care vor să fie văzute. Mai jos găsești câteva dintre lucrările noastre, puse frumos în vitrină.</p>
+      <div class="cta-row" style="--d:3">
+        <a class="btn btn-ink" href="#lucrari">Vezi lucrările <span aria-hidden="true">↓</span></a>
+        <a class="btn btn-line" href="#contact">Cere o ofertă</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg class="rainbow" viewBox="0 0 600 352">
+        <g class="sun"><circle cx="300" cy="330" r="50" fill="#E0512E"/><rect x="240" y="312" width="120" height="5" fill="#F2E4C6"/><rect x="240" y="322" width="120" height="4" fill="#F2E4C6"/></g>
+        <path class="arc" pathLength="1" style="--i:0" stroke="#2C53C8" d="M40 330 A260 260 0 0 1 560 330"/>
+        <path class="arc" pathLength="1" style="--i:1" stroke="#E0512E" d="M85 330 A215 215 0 0 1 515 330"/>
+        <path class="arc" pathLength="1" style="--i:2" stroke="#EFAD2B" d="M130 330 A170 170 0 0 1 470 330"/>
+        <path class="arc" pathLength="1" style="--i:3" stroke="#22A47F" d="M175 330 A125 125 0 0 1 425 330"/>
+        <path class="arc" pathLength="1" style="--i:4" stroke="#201A2C" d="M220 330 A80 80 0 0 1 380 330"/>
+        <line class="horizon" x1="0" y1="349" x2="600" y2="349"/>
+      </svg>
+      <div class="sticker"><small>În acest număr</small><b id="issue">2 site-uri<br>1 film</b></div>
+      <svg class="stamp" viewBox="0 0 150 150">
+        <defs><path id="ringPath" d="M75 75 m-58 0 a58 58 0 1 1 116 0 a58 58 0 1 1 -116 0"/></defs>
+        <circle cx="75" cy="75" r="72" fill="#FAF2E1" stroke="#201A2C" stroke-width="2"/>
+        <circle cx="75" cy="75" r="44" fill="none" stroke="#201A2C" stroke-width="1.5" stroke-dasharray="3 4"/>
+        <g class="ring"><text><textPath href="#ringPath">LUCRAT CU GRIJĂ ✦ ADSCRAFTERS ✦ MARKETING DIGITAL ✦</textPath></text></g>
+        <use href="#logo" x="55" y="55" width="40" height="40"/>
+      </svg>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true"><div class="mq-in" id="mqIn"></div></div>
+</section>
+
+<!-- ============ LUCRĂRI ============ -->
+<section class="works" id="lucrari">
+  <div class="wrap">
+    <header class="sec-head">
+      <div><p class="eyebrow">Portofoliu</p><h2>Lucrări <em>alese</em></h2></div>
+      <p class="lead">Site-uri de prezentare construite de la zero. Derulează: monitorul îți arată fiecare proiect, iar culorile din spatele lui se schimbă după brandul clientului.</p>
+    </header>
+    <div class="works-grid">
+      <div class="works-steps">
+        <article class="wstep" data-shots="0 1">
+          <p class="w-no">Lucrarea Nr. 01</p>
+          <h3>AdsCrafters</h3>
+          <p class="w-sub">Site-ul agenției noastre</p>
+          <p>Casa noastră online. Fiecare serviciu are propria scenă, care își schimbă forma și culorile pe măsură ce derulezi. Urmează procesul de lucru desenat ca un traseu, recenziile clienților, pachetele lunare și un formular de cerere ofertă.</p>
+          <dl class="spec">
+            <div><dt>Tip</dt><dd>Site de prezentare</dd></div>
+            <div><dt>Am făcut</dt><dd>Design și development</dd></div>
+            <div><dt>Detalii</dt><dd>Animații la scroll, pachete de prețuri, formular de ofertă</dd></div>
+          </dl>
+          <a class="w-link" href="https://adscrafters.ro/" target="_blank" rel="noopener">Vizitează adscrafters.ro <span aria-hidden="true">↗</span></a>
+          <button class="m-mon" type="button" aria-label="Arată altă captură din adscrafters.ro">
+            <span class="screen"><span class="win-bar"><span>adscrafters.ro</span></span><span class="win-body"><img class="shot on" src="img/adscrafters-hero.jpg" alt="Prima pagină a site-ului adscrafters.ro" loading="lazy"><img class="shot" src="img/adscrafters-sectiune.jpg" alt="Secțiunea de servicii de pe adscrafters.ro" loading="lazy"></span></span>
+            <span class="mon-foot"><span class="mon-badge"><svg aria-hidden="true"><use href="#logo"/></svg>AdsCrafters</span><span class="tap">Atinge pentru altă captură</span></span>
+          </button>
+        </article>
+        <article class="wstep" data-shots="2 3">
+          <p class="w-no">Lucrarea Nr. 02</p>
+          <h3>PRINT45</h3>
+          <p class="w-sub">Site pentru o tipografie din Pitești</p>
+          <p>PRINT45 are 30 de ani de experiență în tipar de carte, reviste și ambalaje. Am adus utilajele în prim-plan: deschiderea rulează un video din hala de producție, serviciile sunt explicate pe înțelesul oricui, iar drumul unei comenzi e arătat pas cu pas, de la fișier la livrare.</p>
+          <dl class="spec">
+            <div><dt>Tip</dt><dd>Site de prezentare</dd></div>
+            <div><dt>Domeniu</dt><dd>Tipografie, tipar offset</dd></div>
+            <div><dt>Detalii</dt><dd>Video în deschidere, paletă inspirată din CMYK, formular de ofertă</dd></div>
+          </dl>
+          <a class="w-link" href="https://print45.ro/" target="_blank" rel="noopener">Vizitează print45.ro <span aria-hidden="true">↗</span></a>
+          <button class="m-mon" type="button" aria-label="Arată altă captură din print45.ro">
+            <span class="screen"><span class="win-bar"><span>print45.ro</span></span><span class="win-body"><img class="shot on" src="img/print45-hero.jpg" alt="Prima pagină a site-ului print45.ro" loading="lazy"><img class="shot" src="img/print45-sectiune.jpg" alt="Secțiunea Calitate, precizie, viteză de pe print45.ro" loading="lazy"></span></span>
+            <span class="mon-foot"><span class="mon-badge"><svg aria-hidden="true"><use href="#logo"/></svg>AdsCrafters</span><span class="tap">Atinge pentru altă captură</span></span>
+          </button>
+        </article>
+        <article class="wstep free" data-shots="4">
+          <p class="w-no">Lucrarea Nr. 03</p>
+          <h3>Locul <em>tău</em></h3>
+          <p class="w-sub">Spațiu disponibil</p>
+          <p>Vitrina are loc și pentru proiectul tău. Spune-ne cu ce se ocupă afacerea ta și îți propunem un site pe măsură, gândit să aducă clienți.</p>
+          <a class="btn btn-ink" href="#contact">Rezervă locul <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+      <div class="works-pin" aria-hidden="true">
+        <div class="stage-wrap">
+          <div class="stage" id="stage">
+            <i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i>
+            <div class="monitor">
+              <div class="screen" id="screen">
+                <div class="win-bar"><span id="winTitle">adscrafters.ro</span></div>
+                <div class="win-body">
+                  <img class="shot on" src="img/adscrafters-hero.jpg" alt="">
+                  <img class="shot" src="img/adscrafters-sectiune.jpg" alt="" loading="lazy">
+                  <img class="shot" src="img/print45-hero.jpg" alt="" loading="lazy">
+                  <img class="shot" src="img/print45-sectiune.jpg" alt="" loading="lazy">
+                  <div class="shot testcard"><b>SPAȚIU DISPONIBIL</b><small>site-ul-tău.ro</small></div>
+                </div>
+              </div>
+              <div class="mon-foot"><span class="mon-badge"><svg><use href="#logo"/></svg>AdsCrafters</span><span class="slot"></span><i class="led"></i></div>
+            </div>
+            <p class="mon-cap" id="monCap">Prima pagină</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO ============ -->
+<section class="tvsec" id="video">
+  <div class="wrap">
+    <header class="sec-head">
+      <div><p class="eyebrow">Video</p><h2>Pe micul <em>ecran</em></h2></div>
+      <p class="lead">Filmele noastre de prezentare, difuzate pe un televizor ca pe vremuri. Apasă pe ecran ca să pornești filmul sau schimbă canalul din buton.</p>
+    </header>
+    <div class="tv-grid">
+      <div>
+        <div class="tv">
+          <div class="tv-cab">
+            <div class="tv-bezel">
+              <div class="tv-screen" id="tvScreen" data-state="video">
+                <img class="tv-thumb" id="tvThumb" src="img/video-brand.jpg" alt="Cadru din filmul AdsCrafters Brand Presentation">
+                <canvas class="tv-static" id="tvStatic" width="160" height="114" aria-hidden="true"></canvas>
+                <div class="tv-host" id="tvHost"></div>
+                <a class="tv-play" id="tvPlay" href="https://www.youtube.com/watch?v=mOcH6xCcuto" target="_blank" rel="noopener"><span class="tv-play-btn" aria-hidden="true"></span><span class="tv-play-lbl">Pornește filmul</span></a>
+                <div class="tv-nosig" aria-hidden="true"><b>FĂRĂ SEMNAL</b><span>Canal liber</span></div>
+                <span class="tv-osd" id="tvOsd" aria-hidden="true">CH 01</span>
+                <span class="tv-glass" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="tv-panel">
+              <span class="ch-lbl">Canal</span>
+              <span class="ch-win" id="chWin" aria-hidden="true">01</span>
+              <button class="knob" id="knob" type="button" aria-label="Schimbă canalul"></button>
+              <span class="knob-lbl">Rotește</span>
+              <span class="grille" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="tv-legs" aria-hidden="true"></div>
+        </div>
+        <p class="tv-now" id="tvNow" aria-live="polite">Acum pe ecran: AdsCrafters Brand Presentation</p>
+      </div>
+      <aside class="guide" aria-labelledby="guide-t">
+        <div class="guide-top"><span>Ghid TV</span><span>Canalul AdsCrafters</span></div>
+        <h3 id="guide-t">Ce rulează azi</h3>
+        <p>Alege un canal din listă. Canalele libere așteaptă următorul film.</p>
+        <ol class="ch-list" id="chList"></ol>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICII ============ -->
+<section class="svc" id="servicii">
+  <div class="wrap">
+    <header class="sec-head">
+      <div><p class="eyebrow">Servicii</p><h2>Ce facem în <em>atelier</em></h2></div>
+      <p class="lead">Urmează degetul pe traseu. Fiecare bilet e un serviciu pe care îl putem face pentru brandul tău, separat sau la pachet.</p>
+    </header>
+    <div class="track" id="track">
+      <svg class="trail" id="trail" aria-hidden="true">
+        <defs><mask id="trailMask" maskUnits="userSpaceOnUse"><path id="tMask" fill="none" stroke="#fff" stroke-width="40" stroke-linecap="round"/></mask></defs>
+        <path class="t-band" id="tBand"/>
+        <path class="t-ghost" id="tGhost"/>
+        <path class="t-dots" id="tDots" mask="url(#trailMask)"/>
+      </svg>
+      <svg class="hand" id="hand" viewBox="0 0 64 32" aria-hidden="true">
+        <rect x="1" y="7" width="12" height="18" rx="2" fill="#201A2C"/>
+        <rect x="11" y="8" width="22" height="17" rx="6" fill="#FAF2E1" stroke="#201A2C" stroke-width="2.5"/>
+        <rect x="27" y="8" width="34" height="7" rx="3.5" fill="#FAF2E1" stroke="#201A2C" stroke-width="2.5"/>
+        <rect x="27" y="15" width="11" height="4.5" rx="2.2" fill="#FAF2E1" stroke="#201A2C" stroke-width="2"/>
+        <rect x="27" y="19.5" width="10" height="4.5" rx="2.2" fill="#FAF2E1" stroke="#201A2C" stroke-width="2"/>
+        <line x1="16" y1="25" x2="16" y2="9" stroke="#201A2C" stroke-width="1.5" opacity=".4"/>
+      </svg>
+      <div class="tks">
+        <div class="tk"><article class="ticket" style="--c:var(--blue)">
+          <div class="t-top"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M16 3l3.6 7.6 8.4 1-6.2 5.8 1.6 8.3L16 21.6l-7.4 4.1 1.6-8.3L4 11.6l8.4-1z"/></svg><span>Valabil pentru 1 brand</span></div>
+          <h3>Branding</h3>
+          <p>Logo, culori, fonturi și tonul în care vorbești cu oamenii. O identitate pe care clienții o recunosc din prima.</p>
+          <p class="t-tags">Logo · Culori · Mesaje cheie</p>
+        </article><span class="t-stamp" aria-hidden="true">Ads<br>Crafters<br>✓</span></div>
+        <div class="tk"><article class="ticket" style="--c:var(--red)">
+          <div class="t-top"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="26" height="22" rx="3"/><path d="M3 11h26"/><circle cx="7.5" cy="8" r=".8" fill="currentColor"/><circle cx="11" cy="8" r=".8" fill="currentColor"/><path d="M8 16h9M8 21h14"/></svg><span>Valabil pentru 1 brand</span></div>
+          <h3>Web design</h3>
+          <p>Site-uri de prezentare, magazine online și aplicații. Rapide, ușor de folosit pe telefon și pregătite pentru Google.</p>
+          <p class="t-tags">Responsive · Rapid · SEO</p>
+        </article><span class="t-stamp" aria-hidden="true">Ads<br>Crafters<br>✓</span></div>
+        <div class="tk"><article class="ticket" style="--c:var(--yellow)">
+          <div class="t-top"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M16 3l7 11-7 15-7-15z"/><circle cx="16" cy="15" r="2.4"/><path d="M16 17.4V29"/></svg><span>Valabil pentru 1 brand</span></div>
+          <h3>Graphic design</h3>
+          <p>Afișe, bannere, materiale de tipar și vizualuri pentru rețelele sociale, toate în stilul brandului tău.</p>
+          <p class="t-tags">Afișe · Bannere · Social · Print</p>
+        </article><span class="t-stamp" aria-hidden="true">Ads<br>Crafters<br>✓</span></div>
+        <div class="tk"><article class="ticket" style="--c:var(--green)">
+          <div class="t-top"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="13.5" cy="13.5" r="8.5"/><path d="M20 20l8 8"/></svg><span>Valabil pentru 1 brand</span></div>
+          <h3>SEO</h3>
+          <p>Optimizăm structura și conținutul site-ului ca să apari atunci când oamenii caută exact ce vinzi.</p>
+          <p class="t-tags">Audit · Cuvinte cheie · Conținut</p>
+        </article><span class="t-stamp" aria-hidden="true">Ads<br>Crafters<br>✓</span></div>
+        <div class="tk"><article class="ticket" style="--c:var(--blue)">
+          <div class="t-top"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M5 28V18M12 28V12M19 28V16M26 28V6"/><path d="M3 28h26"/></svg><span>Valabil pentru 1 brand</span></div>
+          <h3>Reclame PPC</h3>
+          <p>Campanii pe Google, Facebook, Instagram, LinkedIn și TikTok. Rezultate pe care le poți măsura, cu bugetul sub control.</p>
+          <p class="t-tags">Google Ads · Meta · TikTok</p>
+        </article><span class="t-stamp" aria-hidden="true">Ads<br>Crafters<br>✓</span></div>
+        <div class="tk"><article class="ticket" style="--c:var(--red)">
+          <div class="t-top"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h24v16H13l-6 5v-5H4z"/><path d="M16 18.5l-3.6-3.4a2.3 2.3 0 0 1 3.6-2.8 2.3 2.3 0 0 1 3.6 2.8z" fill="currentColor"/></svg><span>Valabil pentru 1 brand</span></div>
+          <h3>Social media</h3>
+          <p>Postări, conținut și răspunsuri constante, ca în jurul brandului tău să crească o comunitate care interacționează.</p>
+          <p class="t-tags">Strategie · Conținut · Comunitate</p>
+        </article><span class="t-stamp" aria-hidden="true">Ads<br>Crafters<br>✓</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECENZII ============ -->
+<section class="rev" id="recenzii" style="--n:4">
+  <div class="rev-pin">
+    <div class="wrap rev-grid">
+      <header>
+        <p class="eyebrow">Recenzii</p>
+        <h2>Scrisori de la <em>clienți</em></h2>
+        <p class="lead">Câteva rânduri de la oamenii cu care am lucrat la social media, branding, SEO și prezență online. Derulează ca să le citești pe toate.</p>
+        <p class="rev-count" id="revCount" aria-live="polite">Scrisoarea 1 din 4</p>
+      </header>
+      <div class="deck" id="deck">
+        <article class="card">
+          <div class="pc-top"><p class="pc-kicker">Carte poștală<br>Recenzie de client</p><span class="pc-stamp" aria-hidden="true"><svg><use href="#logo"/></svg>Poșta</span></div>
+          <blockquote>„Servicii impecabile, comunicare excelentă și rezultate peste așteptări! Cei de la Adscrafters sunt adevărați profesioniști și își dau tot interesul pentru a livra cele mai bune soluții. De la strategii de social media până la optimizare SEO, totul a fost implementat cu grijă și eficiență. Cu siguranță vom continua colaborarea!”</blockquote>
+          <p class="pc-from"><span class="pc-name">Mihaela Ivan</span><span class="pc-role">CEO</span></p>
+        </article>
+        <article class="card">
+          <div class="pc-top"><p class="pc-kicker">Carte poștală<br>Recenzie de client</p><span class="pc-stamp" aria-hidden="true"><svg><use href="#logo"/></svg>Poșta</span></div>
+          <blockquote>„Am avut o experiență excelentă cu Adscrafters! Deși sunt o echipă mai mică, profesionalismul și atenția la detalii sunt la nivelul celor mai mari agenții. Ne-au ajutat să ne optimizăm prezența online și am văzut rezultate reale în doar câteva săptămâni. Recomand cu încredere oricui caută servicii de digital marketing de calitate!”</blockquote>
+          <p class="pc-from"><span class="pc-name">Sebastian Tudose</span><span class="pc-role">Marketing Manager</span></p>
+        </article>
+        <article class="card">
+          <div class="pc-top"><p class="pc-kicker">Carte poștală<br>Recenzie de client</p><span class="pc-stamp" aria-hidden="true"><svg><use href="#logo"/></svg>Poșta</span></div>
+          <blockquote>„Am colaborat cu Adscrafters pentru social media și branding, iar experiența a fost grozavă de la început până la sfârșit! Echipa e super creativă, mereu atentă la detalii și foarte implicată în a livra rezultate. Ne-au ajutat să ne definim imaginea de brand și să comunicăm mult mai clar cu publicul nostru.”</blockquote>
+          <p class="pc-from"><span class="pc-name">Agenție Media</span><span class="pc-role">Client</span></p>
+        </article>
+        <article class="card">
+          <div class="pc-top"><p class="pc-kicker">Carte poștală<br>Recenzie de client</p><span class="pc-stamp" aria-hidden="true"><svg><use href="#logo"/></svg>Poșta</span></div>
+          <blockquote>„Adscrafters chiar livrează! Ne-au ajutat să creștem vizibilitatea online și totul a fost super clar și eficient. Recomand cu încredere!”</blockquote>
+          <p class="pc-from"><span class="pc-name">Elena Tudor</span><span class="pc-role">Start-up Manager</span></p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <header class="sec-head">
+      <div><p class="eyebrow">Contact</p><h2>Ai un proiect? Hai să-l facem <em>frumos</em>.</h2></div>
+      <p class="lead">Spune-ne de ce ai nevoie: un site nou, o identitate de brand, o campanie sau toate trei. Îți răspundem cu o propunere clară.</p>
+    </header>
+    <div class="c-grid">
+      <div>
+        <p>Cel mai rapid ne găsești pe e-mail. Dacă preferi un formular cu pachete și prețuri, îl ai pe site-ul agenției.</p>
+        <div class="c-mail">
+          <small>Scrie-ne la</small>
+          <span id="email">contact@adscrafters.ro</span>
+          <div class="c-actions">
+            <button class="btn btn-ink" type="button" id="copyMail">Copiază adresa</button>
+            <a class="btn btn-line" href="mailto:contact@adscrafters.ro">Scrie un e-mail</a>
+            <a class="btn btn-line" href="https://adscrafters.ro/#contact" target="_blank" rel="noopener">Formular de ofertă <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="flyer">
+        <p class="fl-kicker">Anunț</p>
+        <h3>Căutăm branduri <em>curajoase</em></h3>
+        <p>Pentru site-uri, campanii și identități care se țin minte. Rupe un bilețel și scrie-ne.</p>
+        <div class="tabs" id="tabs">
+          <button class="tab" type="button">contact@adscrafters.ro</button><button class="tab" type="button">contact@adscrafters.ro</button><button class="tab" type="button">contact@adscrafters.ro</button><button class="tab" type="button">contact@adscrafters.ro</button><button class="tab" type="button">contact@adscrafters.ro</button><button class="tab" type="button">contact@adscrafters.ro</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot-mark" aria-hidden="true"><span>A</span><span>d</span><span>s</span><span>C</span>rafters</p>
+    <div class="foot-row">
+      <span>© <span id="year">2026</span> AdsCrafters · Agenție de marketing digital</span>
+      <span>Lucrări: <a href="https://adscrafters.ro/" target="_blank" rel="noopener">adscrafters.ro</a> · <a href="https://print45.ro/" target="_blank" rel="noopener">print45.ro</a></span>
+      <span>Muzica: Boney M. · Rasputin, redată prin YouTube</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ DOCK (muzică + navigare) ============ -->
+<div class="dock" id="dock">
+  <button class="mbtn" id="mbtn" type="button" aria-pressed="false" aria-label="Pornește muzica">
+    <svg viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="16" fill="#111"/><circle cx="17" cy="17" r="12" fill="none" stroke="#333" stroke-width="1"/><circle cx="17" cy="17" r="9" fill="none" stroke="#333" stroke-width="1"/><circle cx="17" cy="17" r="5.5" fill="#E0512E"/><circle cx="17" cy="17" r="1.4" fill="#111"/><path d="M8 7a14 14 0 0 1 9-3" stroke="#fff" stroke-opacity=".25" stroke-width="1.5" fill="none"/></svg>
+  </button>
+  <span class="np"><b id="npTitle">Rasputin</b><small id="npState">Boney M. · oprită</small></span>
+  <span class="sep" aria-hidden="true"></span>
+  <nav class="dots" id="dots" aria-label="Navigare rapidă"></nav>
+  <span class="dlbl" id="dlbl">Acasă</span>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="yt-music" aria-hidden="true"><div id="ytMusic"></div></div>
+
+<script>
+(()=>{
+document.documentElement.classList.add('js');
+document.documentElement.lang='ro';
+
+/* =====================================================================
+   CONFIGURARE (aici adaugi videouri sau schimbi melodia)
+   - Pentru un video nou, copiază un rând din VIDEOURI și pune ID-ul de pe
+     YouTube (partea de după "watch?v=" din link).
+   - "thumb" e opțional; fără el se folosește coperta de pe YouTube.
+   ===================================================================== */
+const MUZICA = { id:'16y1AkoZkmQ', titlu:'Rasputin', artist:'Boney M.' };
+const VIDEOURI = [
+  { id:'mOcH6xCcuto', titlu:'AdsCrafters Brand Presentation', descriere:'Filmul de prezentare al agenției', thumb:'img/video-brand.jpg' },
+];
+const CANALE_MINIME = 3;   // câte canale arată televizorul (cele fără video apar ca „Canal liber”)
+
+/* ---------- utilitare ---------- */
+const rm=matchMedia('(prefers-reduced-motion: reduce)');
+const $=(s,el=document)=>el.querySelector(s);
+const $$=(s,el=document)=>[...el.querySelectorAll(s)];
+const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const hex=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+const mix=(a,b,t)=>{const A=hex(a),B=hex(b);return'#'+A.map((v,i)=>Math.round(v+(B[i]-v)*t).toString(16).padStart(2,'0')).join('')};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const plural=(n,sg,pl)=>n===1?`1 ${sg}`:`${n}${(n%100>=20||(n%100===0&&n>0))?' de':''} ${pl}`;
+const PREVIEW=(()=>{try{return window.self!==window.top}catch(e){return true}})();
+
+const toastEl=$('#toast'); let toastT;
+function toast(msg){toastEl.textContent=msg;toastEl.classList.add('show');clearTimeout(toastT);toastT=setTimeout(()=>toastEl.classList.remove('show'),4200);}
+
+$('#year').textContent=new Date().getFullYear();
+const nSites=$$('.wstep:not(.free)').length;
+$('#issue').innerHTML=`${plural(nSites,'site','site-uri')}<br>${plural(VIDEOURI.length,'film','filme')}`;
+$('#npTitle').textContent=MUZICA.titlu;
+
+/* ---------- YouTube (doar pe site-ul publicat) ---------- */
+let ytLoaded=false, ytResolve; const ytApi=new Promise(r=>ytResolve=r);
+if(!PREVIEW){
+  const prev=window.onYouTubeIframeAPIReady;
+  window.onYouTubeIframeAPIReady=()=>{prev&&prev();ytLoaded=true;ytResolve(window.YT)};
+  const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.async=true;document.head.appendChild(s);
+}
+
+/* ---------- muzica ---------- */
+const dock=$('#dock'), mbtn=$('#mbtn'), npState=$('#npState');
+let music=null, musicReady=false, wantMusic=false, playing=false, musicErr=false, pausedByTv=false;
+function setDock(){
+  dock.classList.toggle('playing',playing);
+  mbtn.setAttribute('aria-pressed',String(playing));
+  mbtn.setAttribute('aria-label',playing?'Oprește muzica':'Pornește muzica');
+  npState.textContent=`${MUZICA.artist} · ${playing?'cântă acum':(wantMusic&&!musicReady&&!musicErr?'se încarcă…':'oprită')}`;
+}
+const PREVIEW_MSG='Ești în previzualizare, unde YouTube este blocat. Pe site-ul publicat, Rasputin pornește de aici.';
+if(!PREVIEW) ytApi.then(YT=>{
+  music=new YT.Player('ytMusic',{width:'200',height:'200',videoId:MUZICA.id,
+    playerVars:{autoplay:0,controls:0,disablekb:1,loop:1,playlist:MUZICA.id,playsinline:1,rel:0},
+    events:{
+      onReady:()=>{musicReady=true;try{music.setVolume(60)}catch(e){} if(wantMusic) startMusic(); else setDock();},
+      onStateChange:e=>{playing=(e.data===1||e.data===3);setDock();},
+      onError:()=>{musicErr=true;playing=false;setDock();toast('Melodia nu poate fi redată pe acest site. O găsești pe YouTube.');}
+    }});
+});
+function startMusic(){
+  wantMusic=true;
+  if(PREVIEW){toast(PREVIEW_MSG);wantMusic=false;return;}
+  if(musicErr){toast('Melodia nu poate fi redată pe acest site. O găsești pe YouTube.');return;}
+  if(musicReady){try{music.unMute();music.playVideo();}catch(e){}}
+  setDock();
+}
+function stopMusic(){wantMusic=false;if(musicReady){try{music.pauseVideo()}catch(e){}} setDock();}
+mbtn.addEventListener('click',()=>{pausedByTv=false;(playing||(wantMusic&&!musicReady))?stopMusic():startMusic();});
+
+/* ---------- ecranul de intrare ---------- */
+const intro=$('#intro');
+document.documentElement.classList.add('locked');
+if(PREVIEW) $('#preview-note').hidden=false;
+let entered=false;
+function enter(withMusic){
+  if(entered) return; entered=true;
+  if(withMusic) startMusic();
+  intro.classList.add('off');
+  const done=()=>{intro.hidden=true;document.documentElement.classList.remove('locked');document.body.classList.add('entered');measure();};
+  rm.matches?done():setTimeout(done,880);
+}
+$('#start').addEventListener('click',()=>enter(true));
+$('#start-quiet').addEventListener('click',()=>enter(false));
+addEventListener('keydown',e=>{if(e.key==='Escape'&&!entered) enter(false);});
+try{$('#start').focus({preventScroll:true});}catch(e){}
+
+/* ---------- navigare cu derulare lină ---------- */
+function goTo(el){
+  const y=el.id==='acasa'?0:scrollY+el.getBoundingClientRect().top-8;
+  scrollTo({top:Math.max(0,y),behavior:rm.matches?'auto':'smooth'});
+}
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href^="#"]'); if(!a) return;
+  const el=document.getElementById(a.getAttribute('href').slice(1)); if(!el) return;
+  e.preventDefault(); goTo(el);
+});
+
+/* ---------- bandă rulantă ---------- */
+const mqIn=$('#mqIn');
+const MQ=['Branding','Web design','Graphic design','SEO','Reclame PPC','Social media','Site-uri de prezentare'];
+const mqChunk=MQ.map(t=>`<span>${t} <i>✦</i></span>`).join('');
+mqIn.innerHTML=mqChunk+mqChunk+mqChunk+mqChunk;
+let mqX=0, mqW=0;
+
+/* ---------- LUCRĂRI: scena care se transformă la scroll ---------- */
+const works=$('#lucrari'), wsteps=$$('.wstep'), stage=$('#stage'), bars=$$('.bar',stage), shots=$$('.shot',stage), screen=$('#screen'), winTitle=$('#winTitle'), monCap=$('#monCap');
+// fiecare bară: [x, y, lățime, înălțime, rotație, rotunjire%] în procente din scenă
+const ST=[
+  [[-10,2,110,13,-8,50],[-2,19,104,13,-8,50],[-12,36,112,13,-8,50],[-4,53,106,13,-8,50],[-8,72,70,10,-8,50]],
+  [[-6,6,17,88,0,20],[17,1,17,95,0,20],[66,4,17,90,0,20],[89,8,17,84,0,20],[40,1,20,11,0,50]],
+  [[-30,14,160,9,-15,50],[-30,30,160,9,-15,50],[-30,46,160,9,-15,50],[-30,62,160,9,-15,50],[-30,78,160,9,-15,50]],
+];
+const COL=[
+  ['#2C53C8','#E0512E','#EFAD2B','#22A47F','#201A2C'],
+  ['#19A6C9','#A64BD8','#F3B414','#1F1D3A','#7DE8D6'],
+  ['#E0512E','#EFAD2B','#22A47F','#2C53C8','#201A2C'],
+];
+const WBG=['#F2E4C6','#E1ECE9','#F5DB9E'];
+const SHOTS=[
+  ['adscrafters.ro','Prima pagină'],
+  ['adscrafters.ro','Secțiunea de servicii'],
+  ['print45.ro','Prima pagină'],
+  ['print45.ro','Secțiunea „Calitate, precizie, viteză”'],
+  ['site-ul-tău.ro','Spațiu disponibil'],
+];
+let S=0, wcur=0, shotAct=0;
+function worksTarget(){
+  const ref=innerHeight*.5; let s=0;
+  for(let i=0;i<wsteps.length;i++){
+    const r=wsteps[i].getBoundingClientRect(), a=r.top+r.height/2;
+    const nr=i<wsteps.length-1?wsteps[i+1].getBoundingClientRect():null, na=nr?nr.top+nr.height/2:a+1;
+    if(ref>=a) s=i+(nr?clamp((ref-a)/(na-a)):0);
+  }
+  const i=Math.floor(s), f=s-i, v=i+ease(clamp((f-.2)/.6));
+  return rm.matches?Math.round(v):Math.min(wsteps.length-1,v);
+}
+function drawWorks(s){
+  const n=wsteps.length, i=Math.max(0,Math.min(n-2,Math.floor(s))), t=clamp(s-i);
+  const A=ST[i%ST.length], B=ST[(i+1)%ST.length], CA=COL[i%COL.length], CB=COL[(i+1)%COL.length];
+  works.style.setProperty('--wbg',mix(WBG[i%WBG.length],WBG[(i+1)%WBG.length],t));
+  if(!S) return;
+  bars.forEach((el,k)=>{
+    const a=A[k], b=B[k], L=j=>a[j]+(b[j]-a[j])*t;
+    const wob=rm.matches?0:Math.sin(t*Math.PI)*(k%2?9:-9);
+    const w=L(2)*S/100, h=L(3)*S/100;
+    el.style.width=w.toFixed(1)+'px'; el.style.height=h.toFixed(1)+'px';
+    el.style.borderRadius=(Math.min(w,h)*L(5)/100).toFixed(1)+'px';
+    el.style.background=mix(CA[k],CB[k],t);
+    el.style.transform=`translate(${(L(0)*S/100).toFixed(1)}px,${(L(1)*S/100).toFixed(1)}px) rotate(${(L(4)+wob).toFixed(2)}deg)`;
+  });
+}
+function pickShot(){
+  const ref=innerHeight*.5; let idx=+wsteps[0].dataset.shots.split(' ')[0];
+  for(const st of wsteps){
+    const r=st.getBoundingClientRect(); if(ref<r.top) continue;
+    const list=st.dataset.shots.split(' ').map(Number), p=(ref-r.top)/r.height;
+    idx=list.length>1?(p<.6?list[0]:list[1]):list[0];
+  }
+  return idx;
+}
+function setShot(idx){
+  if(idx===shotAct) return; shotAct=idx;
+  shots.forEach((s,k)=>s.classList.toggle('on',k===idx));
+  winTitle.textContent=SHOTS[idx][0]; monCap.textContent=SHOTS[idx][1];
+  if(!rm.matches){screen.classList.remove('glitch');void screen.offsetWidth;screen.classList.add('glitch');}
+}
+$$('.m-mon').forEach(m=>m.addEventListener('click',()=>{const im=$$('.shot',m);const k=im.findIndex(x=>x.classList.contains('on'));im.forEach((x,j)=>x.classList.toggle('on',j===(k+1)%im.length));}));
+
+/* ---------- VIDEO: televizorul cu canale ---------- */
+const nCh=Math.max(CANALE_MINIME,VIDEOURI.length+1);
+const chList=$('#chList'), tvScreen=$('#tvScreen'), tvThumb=$('#tvThumb'), tvPlay=$('#tvPlay'), tvOsd=$('#tvOsd'), chWin=$('#chWin'), knob=$('#knob'), tvNow=$('#tvNow'), tvHost=$('#tvHost');
+chList.innerHTML=Array.from({length:nCh},(_,i)=>{const v=VIDEOURI[i];const n=String(i+1).padStart(2,'0');
+  return `<li><button type="button" data-ch="${i}"><span class="g-ch">CH ${n}</span><span class="g-t">${v?esc(v.titlu):'Canal liber'}</span><span class="g-d">${v?esc(v.descriere||'Film de prezentare'):'Următorul film poate fi al tău'}</span></button></li>`}).join('');
+let ch=-1, tvPlayer=null, knobTurns=0;
+function resumeAfterTv(){if(pausedByTv){pausedByTv=false;startMusic();}}
+function killTv(){if(tvPlayer){try{tvPlayer.destroy()}catch(e){} tvPlayer=null;} tvHost.innerHTML='';}
+function setChannel(i,animate){
+  const next=((i%nCh)+nCh)%nCh;
+  if(animate){knobTurns+=1;knob.style.setProperty('--r',(knobTurns*(360/nCh))+'deg');}
+  ch=next; killTv(); resumeAfterTv();
+  const v=VIDEOURI[ch], n=String(ch+1).padStart(2,'0');
+  tvOsd.textContent='CH '+n; chWin.textContent=n;
+  if(v){
+    tvScreen.dataset.state='video';
+    tvThumb.src=v.thumb||`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`;
+    tvThumb.alt='Cadru din filmul '+v.titlu;
+    tvPlay.href='https://www.youtube.com/watch?v='+v.id;
+    tvPlay.setAttribute('aria-label','Pornește filmul '+v.titlu);
+    tvNow.textContent='Acum pe ecran: '+v.titlu;
+  }else{
+    tvScreen.dataset.state='static'; drawStatic();
+    tvNow.textContent=`Canalul ${n} e liber. Următorul film poate fi al tău.`;
+  }
+  $$('button',chList).forEach(b=>b.setAttribute('aria-current',String(+b.dataset.ch===ch)));
+  if(animate&&!rm.matches){tvScreen.classList.remove('switch');void tvScreen.offsetWidth;tvScreen.classList.add('switch');}
+}
+knob.addEventListener('click',()=>setChannel(ch+1,true));
+chList.addEventListener('click',e=>{const b=e.target.closest('button[data-ch]');if(b&&+b.dataset.ch!==ch) setChannel(+b.dataset.ch,true);});
+tvPlay.addEventListener('click',e=>{
+  if(PREVIEW||!ytLoaded) return;          // în previzualizare deschide filmul pe YouTube
+  e.preventDefault();
+  const v=VIDEOURI[ch]; if(!v) return;
+  tvScreen.dataset.state='playing';
+  tvHost.innerHTML='<div id="tvPlayerEl"></div>';
+  tvPlayer=new YT.Player('tvPlayerEl',{width:'100%',height:'100%',videoId:v.id,
+    playerVars:{autoplay:1,playsinline:1,rel:0},
+    events:{onStateChange:ev=>{
+      if(ev.data===1&&playing){stopMusic();pausedByTv=true;}
+      else if(ev.data===0||ev.data===2) resumeAfterTv();
+    }}});
+});
+const stc=$('#tvStatic'), sctx=stc.getContext('2d'), simg=sctx.createImageData(stc.width,stc.height);
+function drawStatic(){const d=simg.data;for(let i=0;i<d.length;i+=4){const v=Math.random()*235|0;d[i]=d[i+1]=d[i+2]=v;d[i+3]=255;}sctx.putImageData(simg,0,0);}
+setChannel(0,false);
+
+/* ---------- SERVICII: traseul cu deget ---------- */
+const track=$('#track'), trail=$('#trail'), tBand=$('#tBand'), tGhost=$('#tGhost'), tDots=$('#tDots'), tMask=$('#tMask'), hand=$('#hand'), tks=$$('.tk');
+let TL=0, hitAt=[]; const hit=new Set();
+function buildTrail(){
+  const tr=track.getBoundingClientRect(), W=tr.width, H=tr.height, mob=innerWidth<=820;
+  if(!W||!H) return;
+  trail.setAttribute('width',W); trail.setAttribute('height',H); trail.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const m=$('#trailMask'); m.setAttribute('x',-60); m.setAttribute('y',-200); m.setAttribute('width',W+120); m.setAttribute('height',H+400);
+  const pts=[[mob?20:W/2,-70]];
+  tks.forEach((t,k)=>{const r=t.getBoundingClientRect(), cy=r.top-tr.top+r.height/2;
+    if(mob) pts.push([20+(k%2?7:-7),cy]);
+    else{const left=(r.left-tr.left+r.width/2)<W/2; pts.push([left?W*.6:W*.4,cy]);}
+  });
+  pts.push([mob?20:W/2,H+70]);
+  let d=`M${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
+  for(let i=0;i<pts.length-1;i++){const p0=pts[i-1]||pts[i],p1=pts[i],p2=pts[i+1],p3=pts[i+2]||p2;
+    d+=` C${(p1[0]+(p2[0]-p0[0])/6).toFixed(1)} ${(p1[1]+(p2[1]-p0[1])/6).toFixed(1)} ${(p2[0]-(p3[0]-p1[0])/6).toFixed(1)} ${(p2[1]-(p3[1]-p1[1])/6).toFixed(1)} ${p2[0].toFixed(1)} ${p2[1].toFixed(1)}`;}
+  [tBand,tGhost,tDots,tMask].forEach(p=>p.setAttribute('d',d));
+  tBand.style.strokeWidth=mob?24:46;
+  TL=tGhost.getTotalLength(); tMask.style.strokeDasharray=TL; tMask.style.strokeDashoffset=TL;
+  hitAt=tks.map(t=>{const r=t.getBoundingClientRect(), cy=r.top-tr.top+r.height*.45; let lo=0,hi=TL;
+    for(let it=0;it<24;it++){const mid=(lo+hi)/2; tGhost.getPointAtLength(mid).y<cy?lo=mid:hi=mid;} return lo/TL;});
+}
+let trailV=0;
+function trailTarget(){const r=track.getBoundingClientRect();return clamp((innerHeight*.6-r.top)/r.height);}
+function drawTrail(p){
+  if(!TL) return;
+  const l=p*TL, a=tGhost.getPointAtLength(l), b=tGhost.getPointAtLength(Math.min(TL,l+2));
+  const ang=Math.atan2(b.y-a.y,b.x-a.x)*180/Math.PI;
+  hand.style.transform=`translate(${a.x.toFixed(1)}px,${a.y.toFixed(1)}px) rotate(${ang.toFixed(1)}deg)`;
+  tMask.style.strokeDashoffset=(TL-l).toFixed(1);
+  hitAt.forEach((h,k)=>{
+    if(p>=h&&!hit.has(k)){hit.add(k);tks[k].classList.remove('hit');void tks[k].offsetWidth;tks[k].classList.add('hit','stamped');}
+    if(p<h-.02&&hit.has(k)){hit.delete(k);tks[k].classList.remove('hit','stamped');}
+  });
+}
+
+/* ---------- RECENZII: pachetul de cărți poștale ---------- */
+const rev=$('#recenzii'), cards=$$('.card'), revCount=$('#revCount'); let revAct=-1;
+function drawDeck(){
+  const r=rev.getBoundingClientRect(), total=r.height-innerHeight; if(total<=0) return;
+  const p=clamp(-r.top/total)*(cards.length-.2);
+  cards.forEach((c,i)=>{
+    const d=p-i, enter=clamp(d+1), e=ease(enter), under=Math.max(0,d);
+    const y=(1-e)*105-Math.min(under,3)*3;
+    const rot=(1-e)*(i%2?14:-14)+(i%2?1.6:-1.6);
+    const sc=1-Math.min(under,3)*.045;
+    c.style.transform=`translateY(calc(-50% + ${y.toFixed(2)}vh)) rotate(${rot.toFixed(2)}deg) scale(${sc.toFixed(3)})`;
+    c.style.opacity=enter<=0?'0':'1';
+    c.style.zIndex=10+i;
+  });
+  const n=Math.min(cards.length-1,Math.max(0,Math.floor(p+.35)));
+  if(n!==revAct){revAct=n;revCount.textContent=`Scrisoarea ${n+1} din ${cards.length}`;}
+}
+
+/* ---------- CONTACT: copiere adresă + bilețele ---------- */
+async function copyEmail(){
+  const em='contact@adscrafters.ro';
+  try{await navigator.clipboard.writeText(em);toast('Adresa a fost copiată: '+em);}
+  catch(e){const s=getSelection(),r=document.createRange();r.selectNodeContents($('#email'));s.removeAllRanges();s.addRange(r);toast('Adresa e selectată. Apasă Ctrl/Cmd + C ca s-o copiezi.');}
+}
+$('#copyMail').addEventListener('click',copyEmail);
+const tabs=$$('.tab');
+tabs.forEach(t=>t.addEventListener('click',()=>{
+  copyEmail(); if(t.classList.contains('torn')) return;
+  t.classList.add('torn');
+  setTimeout(()=>{t.style.visibility='hidden';
+    if(tabs.every(x=>x.classList.contains('torn'))) setTimeout(()=>tabs.forEach(x=>{x.classList.remove('torn');x.style.visibility='';}),900);
+  },700);
+}));
+
+/* ---------- DOCK: secțiuni ---------- */
+const SECT=[['acasa','Acasă','var(--red)'],['lucrari','Lucrări','var(--blue)'],['video','Video','var(--yellow)'],['servicii','Servicii','var(--green)'],['recenzii','Recenzii','var(--red)'],['contact','Contact','var(--blue)']]
+  .map(([id,l,c])=>({el:document.getElementById(id),l,c})).filter(s=>s.el);
+const dots=$('#dots'), dlbl=$('#dlbl');
+dots.innerHTML=SECT.map(s=>`<button type="button" aria-label="${s.l}" style="--d:${s.c}"><i></i></button>`).join('');
+const dotBtns=[...dots.children]; dotBtns.forEach((b,i)=>b.addEventListener('click',()=>goTo(SECT[i].el)));
+let dAct=-1;
+function drawDock(){
+  const mid=innerHeight*.45; let n=0;
+  SECT.forEach((s,i)=>{if(s.el.getBoundingClientRect().top<mid) n=i;});
+  if(n!==dAct){dAct=n;dlbl.textContent=SECT[n].l;dotBtns.forEach((b,j)=>{b.classList.toggle('on',j===n);b.setAttribute('aria-current',String(j===n));});}
+}
+
+/* ---------- HERO: curcubeul la scroll ---------- */
+const hero=$('#acasa'), arcs=$$('.rainbow .arc'), sun=$('.rainbow .sun');
+
+/* ---------- bucla principală ---------- */
+function measure(){
+  S=stage&&stage.offsetParent?stage.getBoundingClientRect().width:0;
+  mqW=mqIn.scrollWidth/4;
+  buildTrail();
+}
+addEventListener('resize',()=>{clearTimeout(measure.t);measure.t=setTimeout(measure,150);});
+addEventListener('load',measure);
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(measure);
+if('ResizeObserver' in window) new ResizeObserver(()=>{clearTimeout(measure.r);measure.r=setTimeout(buildTrail,120);}).observe(track);
+measure(); wcur=worksTarget(); trailV=trailTarget(); drawWorks(wcur);
+
+let lastY=scrollY, vel=0, frame=0;
+(function loop(){
+  frame++;
+  const y=scrollY, dy=y-lastY; lastY=y; vel+=(dy-vel)*.12;
+  // hero
+  const hp=clamp(y/(hero.offsetHeight||1));
+  if(!rm.matches){arcs.forEach((a,i)=>a.style.transform=`rotate(${(-(i+1)*4.5*hp).toFixed(2)}deg)`);sun.style.transform=`translateY(${(hp*70).toFixed(1)}px)`;}
+  // bandă
+  if(!rm.matches&&mqW){mqX-=.55+Math.min(Math.abs(vel),90)*.2;if(-mqX>=mqW) mqX+=mqW;mqIn.style.transform=`translate3d(${mqX.toFixed(1)}px,0,0)`;}
+  // lucrări
+  const wt=worksTarget(); wcur=rm.matches?wt:wcur+(wt-wcur)*.14; drawWorks(wcur);
+  if(S) setShot(pickShot());
+  // traseu
+  const tt=trailTarget(); trailV=rm.matches?tt:trailV+(tt-trailV)*.12; drawTrail(trailV);
+  // recenzii, dock
+  drawDeck(); drawDock();
+  // purici pe canalele libere
+  if(tvScreen.dataset.state==='static'&&!rm.matches&&frame%3===0){const r=tvScreen.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight) drawStatic();}
+  requestAnimationFrame(loop);
+})();
+})();
+</script>
+
+</body>
+</html>

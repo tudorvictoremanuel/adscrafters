@@ -1,0 +1,43 @@
+PORTOFOLIU ADSCRAFTERS · cum îl pui online
+==========================================
+
+1. Urcă pe hosting tot conținutul acestui folder (index.html și folderul img),
+   la fel cum ai urcat adscrafters.ro sau print45.ro. Poate sta pe un domeniu
+   nou sau într-un subfolder, de exemplu adscrafters.ro/portofoliu/.
+
+2. Deschide site-ul și apasă „Pornește”. Melodia (Boney M. · Rasputin) și
+   filmul de pe televizor rulează prin YouTube, deci merg doar după ce site-ul
+   e urcat pe hosting. Din fișier deschis local sau din previzualizarea din
+   Claude, YouTube nu pornește.
+
+De ce există butonul „Pornește”
+-------------------------------
+Niciun browser nu lasă un site să pornească sunetul fără un click de la
+vizitator. Ecranul de intrare dă acel click, iar melodia începe imediat.
+Vizitatorul o poate opri oricând din butonul cu discul de vinil, jos pe ecran.
+Când pornește filmul de pe televizor, melodia se oprește singură și revine
+când filmul se termină sau e pus pe pauză.
+
+Cum adaugi un video nou
+-----------------------
+Deschide index.html într-un editor de text și caută rândul:
+
+  const VIDEOURI = [
+
+Sub el e lista de filme. Adaugă un rând nou după modelul celui existent:
+
+  { id:'ID_VIDEO', titlu:'Numele filmului', descriere:'O frază scurtă' },
+
+ID_VIDEO este partea de după „watch?v=” din linkul de YouTube.
+Exemplu: pentru https://www.youtube.com/watch?v=mOcH6xCcuto, ID-ul este
+mOcH6xCcuto. Coperta se ia automat de pe YouTube. Filmul apare pe următorul
+canal al televizorului și în „Ghidul TV”.
+
+Cum schimbi melodia
+-------------------
+Caută rândul care începe cu „const MUZICA” și înlocuiește ID-ul, titlul și
+artistul.
+
+Cum adaugi un site nou în portofoliu
+------------------------------------
+Trimite-mi linkul și îl adaug eu, cu capturile de ecran și culorile lui.
